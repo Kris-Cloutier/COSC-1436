@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string name;        // To hold a name
+    string city;        // To hold a city
+    string age;         // To hold an age
+    string college;     // To hold a college
+    string profession;  // To hold a profession
+    string animal;      // To hold a type of animal
+    string petName;     // To hold the name of a pet
+
+    // Get the name of the player.
+    cout << "Enter name: ";
+    getline(cin, name);
+
+    // Get the name of a city.
+    cout << "Enter city: ";
+    getline(cin, city);
+
+    // Get the age of the player.
+    cout << "Enter age: ";
+    cin >> age;
+    cin.ignore();
+
+    // Get the name of a college.
+    cout << "Enter college: ";
+    getline(cin, college);
+
+    // Get the name of a profession.
+    cout << "Enter profession: ";
+    getline(cin, profession);
+
+    // Get the name of a type of animal.
+    cout << "Enter animal: ";
+    getline(cin, animal);
+
+    // Get the name of a pet.
+    cout << "Enter pet name: ";
+    getline(cin, petName);
+
+    // Display the story.
+    cout << "\n\nThere once was a person named "<< name 
+         << " who lived in " << city << ".\n"
+         << "At the age of " << age << ", " 
+         << name << " went to college at " << college << ".\n" 
+         << name << " graduated and went to work" << " as a " 
+         << profession << ".\n" << "Then, " << name 
+         << " adopted a(n) " << animal << " named " << petName 
+         << ".\n" << "They both lived happily ever after!\n\n";
+    return 0;
+}
