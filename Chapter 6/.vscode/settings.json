@@ -4,6 +4,7 @@
         "iomanip": "cpp",
         "iterator": "cpp",
         "xutility": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "ostream": "cpp"
     }
 }
